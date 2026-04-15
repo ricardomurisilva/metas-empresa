@@ -1,0 +1,21 @@
+{
+  "name": "metas-empresa",
+  "version": "1.0.0",
+  "description": "Sistema simples para controle e acompanhamento de metas empresariais.",
+  "main": "index.js",
+  "scripts": {
+   "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ricardomurisilva/metas-empresa.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/ricardomurisilva/metas-empresa/issues"
+  },
+  "homepage": "https://github.com/ricardomurisilva/metas-empresa#readme"
+}
