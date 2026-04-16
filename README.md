@@ -24,3 +24,7 @@ Organizar e acompanhar metas de forma prática, permitindo análise de desempenh
 ---
 
 Projeto em desenvolvimento com foco em aprendizado de versionamento (Git), organização de código e práticas de DevOps.
+
+## Teste CI/CD
+
+Alteração realizada para teste de pipeline.
