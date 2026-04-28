@@ -1,0 +1,22 @@
+name: Testes
+
+on:
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Baixar código
+        uses: actions/checkout@v3
+
+      - name: Instalar dependências
+        run: npm install
+
+      - name: Instalar Jest
+        run: npm install jest
+
+      - name: Rodar testes
+        run: npx jest
