@@ -9,14 +9,11 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Baixar código
+      - name: Checkout
         uses: actions/checkout@v3
 
       - name: Instalar dependências
         run: npm install
 
-      - name: Instalar Jest
-        run: npm install jest
-
       - name: Rodar testes
-        run: echo "Tests passed"
+        run: npx jest
